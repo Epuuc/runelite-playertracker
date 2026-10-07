@@ -56,7 +56,7 @@ public class PlayerTrackerPlugin extends Plugin {
 	protected void startUp() throws Exception {
 
 		panel = new PlayerTrackerPanel(client, cfgManager, overlay);
-		BufferedImage icon = ImageUtil.loadImageResource(getClass(), "/com/PlayerTracker/64x64_player_icon.png");
+		BufferedImage icon = ImageUtil.loadImageResource(getClass(), "/com/PlayerTracker/player_tracker_icon_64x64.png");
 
 		navButton = NavigationButton.builder()
 			.tooltip("Player Tracker")

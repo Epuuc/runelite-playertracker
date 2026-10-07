@@ -117,7 +117,7 @@ public class PlayerTrackerPanel extends PluginPanel {
 
         JLabel titleLabel = new JLabel("Player Tracker");
 
-        Image playerIcon = ImageUtil.loadImageResource(getClass(), "/com/PlayerTracker/64x64_player_icon.png").getScaledInstance(16, 16, Image.SCALE_SMOOTH);
+        Image playerIcon = ImageUtil.loadImageResource(getClass(), "/com/PlayerTracker/player_tracker_icon_64x64.png").getScaledInstance(16, 16, Image.SCALE_SMOOTH);
         JLabel playerIconLabel = new JLabel(new ImageIcon(playerIcon));
 
         switchTrackerButton.setToolTipText("Open the cached player tracker.");
