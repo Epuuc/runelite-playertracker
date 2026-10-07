@@ -392,19 +392,19 @@ public class PlayerTrackerPanel extends PluginPanel {
         JPopupMenu exportOptionsMenu = new JPopupMenu();
         JMenuItem exportCommaSeparated = new JMenuItem("Export (comma separated)");
         JMenuItem exportNewLineSeparated = new JMenuItem("Export (line separated)");
-        JMenuItem exportAsJSON = new JMenuItem("Export (JSON)");
-        JMenuItem exportAsCSV = new JMenuItem("Export (CSV)");
+        //JMenuItem exportAsJSON = new JMenuItem("Export (JSON)");
+        //JMenuItem exportAsCSV = new JMenuItem("Export (CSV)");
         exportOptionsMenu.add(exportCommaSeparated);
         exportOptionsMenu.add(exportNewLineSeparated);
-        exportOptionsMenu.add(exportAsJSON);
-        exportOptionsMenu.add(exportAsCSV);
+        //exportOptionsMenu.add(exportAsJSON);
+        //exportOptionsMenu.add(exportAsCSV);
         exportButton.addActionListener(e -> {
             exportOptionsMenu.show(exportButton, 0, exportButton.getHeight());
         });
         exportCommaSeparated.addActionListener(e -> HandleExport(ExportType.COMMA_SEPARATED, filteredPlayerList));
         exportNewLineSeparated.addActionListener(e -> HandleExport(ExportType.NEW_LINE_SEPARATED, filteredPlayerList));
-        exportAsJSON.addActionListener(e -> HandleExport(ExportType.JSON, filteredPlayerList));
-        exportAsCSV.addActionListener(e -> HandleExport(ExportType.CSV, filteredPlayerList));
+        //exportAsJSON.addActionListener(e -> HandleExport(ExportType.JSON, filteredPlayerList));
+        //exportAsCSV.addActionListener(e -> HandleExport(ExportType.CSV, filteredPlayerList));
 
         // CUSTOM FILTER BUTTON
         JButton customFilterButton = new JButton("Custom Filter");
@@ -568,9 +568,9 @@ public class PlayerTrackerPanel extends PluginPanel {
             } else if (exportType == ExportType.NEW_LINE_SEPARATED) {
                 exportBuilder.append(player.getName()).append("\n");
             } else if (exportType == ExportType.JSON) {
-                // Implement JSON export logic here
+                // to do later
             } else if (exportType == ExportType.CSV) {
-                // Implement CSV export logic here
+                // to do later
             }
         }
         StringSelection exportContent = new StringSelection(exportBuilder.toString());
