@@ -1,2 +1,1 @@
-# Example
-An example greeter plugin
+# Player Tracker - Runelite Plugin
