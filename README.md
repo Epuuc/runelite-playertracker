@@ -11,7 +11,7 @@ The RuneLite Player Tracker is a plugin designed for event hosts who want to eas
 ## Features
 - Displays a list of nearby players by username.
 - Displays a list of players you've run into since you logged in.
-- Easy export to clipboard in multiple formats (Comma separated, by line, JSON and CSV).
+- Easy export to clipboard in multiple formats (Comma separated and by line).
 - Easily filter by Clan Members, Friends Chat Members, Friends, and a Custom list you can configure.
 - Set up the cached list in manual mode and add people as you want
 - Many more features to come!
