@@ -5,6 +5,7 @@ import net.runelite.client.externalplugins.ExternalPluginManager;
 
 public class PlayerTrackerTest
 {
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws Exception
 	{
 		// Load your custom plugin class into RuneLite's plugin manager
