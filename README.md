@@ -1,4 +1,4 @@
-![player tracker icon](src/main/resources/com/PlayerTracker/player_tracker_icon_128x128.png)
+![player tracker icon](images/player_tracker_icon_128x128.png)
 # Player Tracker
 <small>The perfect plugin for automatically taking attendance in events or seeing who is around you.</small>
 
@@ -17,9 +17,9 @@ The RuneLite Player Tracker is a plugin designed for event hosts who want to eas
 - Many more features to come!
 
 ## Screenshots
-![player tracker example 1](src/main/resources/com/PlayerTracker/player_tracker_example1.png)
-![player tracker example 2](src/main/resources/com/PlayerTracker/player_tracker_example2.png)
-![player tracker example 3](src/main/resources/com/PlayerTracker/player_tracker_example3.png)
+![player tracker example 1](images/player_tracker_example1.png)
+![player tracker example 2](images/player_tracker_example2.png)
+![player tracker example 3](images/player_tracker_example3.png)
 
 ## AI Usage
 AI was not used to generate any code except for some boilerplate or example code. This plugin was hand written. The icons were generated because I suck at designing lol. This is my first public repo, but I do a lot of private work and have been coding in numerous languages over many years, before AI became a thing.
